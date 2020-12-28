@@ -21,6 +21,7 @@ class Contoh extends CI_Controller
      */
     public function index()
     {
-        echo "<h1>Contoh Default Controller</h1>";
+        // echo "<h1>Contoh Default Controller</h1>";
+        $this->load->view('contoh_view');
     }
 }
